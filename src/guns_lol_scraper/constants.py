@@ -1,0 +1,8 @@
+CHALLENGE_DICT_KEY = "_gpp_ch"
+CONFIG_KEY = "config"
+OPTIONAL_KEYS = {CHALLENGE_DICT_KEY, CONFIG_KEY}
+
+URL_MATCH_REGEX = r"(?:https://)?guns\.lol/(?:.+)"
+
+EXIT_SUCCESS = 0
+EXIT_FAILURE = 1

@@ -1,0 +1,21 @@
+[project]
+name = "guns_lol_scraper"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "lain", email = "lain" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "curl-cffi>=0.17.0",
+    "loguru>=0.7.3",
+    "nextflight>=0.4.6",
+]
+
+[project.scripts]
+guns-lol = "guns_lol_scraper:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
